@@ -7,11 +7,13 @@ public class Employee extends Person {
 	private String employerName;
 	private char employeeGrade;
 	private BigDecimal salary;
+	public Employee(String name, String title) {
+		super(name);
+		System.out.println("employee constructor");
+		this.title= title;
+	}
 	public String getTitle() {
 		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
 	}
 	public String getEmployerName() {
 		return employerName;

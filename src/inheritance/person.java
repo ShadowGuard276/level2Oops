@@ -4,11 +4,12 @@ public class Person {
 	private String name;
 	private String Email;
 	private String phoneNumber;
+	public Person(String name) {
+		System.out.println("person Constructor");
+		this.name= name;
+	}
 	public String getName() {
 		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
 	}
 	public String getEmail() {
 		return Email;
