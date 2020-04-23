@@ -1,6 +1,6 @@
 package inheritance;
 
-public class person {
+public class Person {
 	private String name;
 	private String Email;
 	private String phoneNumber;
@@ -21,6 +21,9 @@ public class person {
 	}
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
+	}
+	public String toString() {
+		return name +"#" + Email +"#"+phoneNumber;
 	}
 	
 }

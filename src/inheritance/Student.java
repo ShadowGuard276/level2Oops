@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Student extends person {
+public class Student extends Person {
 	private String Collegename;
 	private int year;
 	public String getCollegename() {
@@ -15,5 +15,10 @@ public class Student extends person {
 	public void setYear(int year) {
 		this.year = year;
 	}
+	/*public String toString(){
+		return Collegename+"#"+ year;
+		
+		
+	}*/
 
 }
