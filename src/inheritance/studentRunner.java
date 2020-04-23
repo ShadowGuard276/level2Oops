@@ -4,7 +4,7 @@ public class studentRunner {
 
 	public static void main(String[] args) {
 		
-		Student student =new Student();
+	/*	Student student =new Student();
 		student.setName("grape");
 		student.setPhoneNumber("4532566");
 		student.setCollegename("NRI");
@@ -20,7 +20,16 @@ public class studentRunner {
 		person.setEmail("fruit@spammail.com");
 		
 		System.out.println(value);
-		System.out.println(person);
+		System.out.println(person);*/
+		Employee employee = new Employee();
+		employee.setName("fruit");
+		employee.setPhoneNumber("123*456*7897");
+		employee.setEmail("fruit@spammail.com");
+		employee.setEmployeeGrade('A');
+		employee.setEmployerName("Apple");
+		employee.setTitle("bussiness manager");
+		System.out.println(employee);
+		
 		
 	}
 
