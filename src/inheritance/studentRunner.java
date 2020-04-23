@@ -21,13 +21,13 @@ public class studentRunner {
 		
 		System.out.println(value);
 		System.out.println(person);*/
-		Employee employee = new Employee();
-		employee.setName("fruit");
+		Employee employee = new Employee("fruit", "BA");
+		//employee.setName("fruit");
 		employee.setPhoneNumber("123*456*7897");
 		employee.setEmail("fruit@spammail.com");
 		employee.setEmployeeGrade('A');
 		employee.setEmployerName("Apple");
-		employee.setTitle("bussiness manager");
+		//employee.setTitle("bussiness manager");
 		System.out.println(employee);
 		
 		
