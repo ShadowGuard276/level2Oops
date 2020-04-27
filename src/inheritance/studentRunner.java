@@ -10,17 +10,17 @@ public class studentRunner {
 		student.setCollegename("NRI");
 		student.setYear(12);
 		System.out.println(student);
+		*/
 		
-		
-		Person person = new Person();
+		Person person = new Person("bem");
 		
 		String value = person.toString();
-		person.setName("fruit");
+		//person.setName("fruit");
 		person.setPhoneNumber("123*456*7897");
 		person.setEmail("fruit@spammail.com");
-		
-		System.out.println(value);
-		System.out.println(person);*/
+		//person.
+		//System.out.println(value);
+		System.out.println(person);
 		Employee employee = new Employee("fruit", "BA");
 		//employee.setName("fruit");
 		employee.setPhoneNumber("123*456*7897");
